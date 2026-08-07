@@ -3,6 +3,7 @@
 import Header from "./Header";
 import StudentCard from "./StudentCard";
 import AttendanceCounter from "./AttendanceCounter";
+import DraftEditorStarter from "./DraftEditor_starter";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <StudentCard name="Mia Santos" age={19} course="BSIT" isRegular={false} />
       <StudentCard name="Jhon Dela Cruz" age={21} course="BSIT" isRegular={true} />
       <AttendanceCounter />
+      <DraftEditorStarter />
     </div>
   );
 }
